@@ -5,6 +5,8 @@
 
  View the [docs](http://godoc.org/github.com/doseeing/termblock).
 
+![](./status.gif)
+
 ## Installation
 
 ```
@@ -33,6 +35,9 @@ tb := termblock.ColorNew(`▌`, []int{31,32})
 tb.Print([]int{0,1,0,1,0,1}, "Color Block Example: ")
 ```
 
+## Inspired by
+
+[tj/go-spin](https://github.com/tj/go-spin)
 
 # License
 
